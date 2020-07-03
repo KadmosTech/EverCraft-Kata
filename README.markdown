@@ -49,7 +49,7 @@ This iteration covers core functionality for leveling, combat, and character att
 > As an attacker I want to be able to damage my enemies so that they will die and I will live
 
 - If attack is successful, other character takes 1 point of damage when hit
-- If a roll is a natural 20 then a critical hit is dealt and the damage is doubled
+- If a roll is a natural 20 then a critical hit is dealt and the damage is doubled, even if the other character's Armor Class is greater than 20.
 - when hit points are 0 or fewer, the character is dead
 
 #### Feature: Character Has Abilities Scores
